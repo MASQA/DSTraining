@@ -13,7 +13,7 @@ def build_path_to_data(folder = ''):
             return path_hw
             break
         elif yourEnv == '3' :
-            path_hw = "./" + folder + "/"
+            path_hw = "./"
             break
         else:
             print('There is no such variant.Please try again')
