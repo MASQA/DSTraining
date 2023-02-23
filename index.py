@@ -7,7 +7,7 @@ def build_path_to_data(folder = ''):
             return path_hw
             break
         elif yourEnv == '2' :
-            # from google.colab import drive
+            from google.colab.drive import drive
             drive.mount("/content/drive")
             path_hw = "/content/drive/My Drive/DataScience/" + folder + "/"
             return path_hw
